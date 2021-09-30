@@ -1,0 +1,92 @@
+header{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 4fr repeat(4,1fr);
+    gap: 1pt;
+}
+
+footer{
+    border: black 1pt solid;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr repeat(4,1fr);
+    gap: 1rem;
+}
+
+nav{
+
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(9,1fr);
+    gap: 2pt;
+
+}
+
+#searchbar{
+    grid-row: 2/4;
+}
+p{
+    border: black 1pt solid;
+    background-color: blanchedalmond;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    width: 80vw;
+    gap: 2rem;
+}
+#mainContent{
+display: grid;
+justify-content: center;
+}
+#imgWrapper{
+    height: 50vh;
+    width: 25vw;
+    background-color: gold;
+}
+#topCategories{
+    text-align: center;
+}
+
+#fashionStore{
+display: grid;
+grid-template-rows: auto;
+grid-template-columns: repeat(2 , 1fr);
+gap: 2rem;
+border: black 1pt solid;
+margin-bottom: 2rem;
+}
+#innerCategoryContent{
+
+display: grid;
+grid-template-rows: repeat(2,1fr);
+grid-template-columns: auto;
+}
+#fashionStore{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: auto;
+}
+
+#homeCare{
+    display: grid;
+    grid-template-columns: 2fr repeat(3,1fr);
+    border: black 1pt solid;
+    gap: 1pt;
+}
+#reseller{
+    text-align: right;
+    border: black 1pt solid;
+    margin: 2rem;
+}
+span{
+    border-right: black 1pt solid;
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+#supplier{
+    border: black 1pt solid;
+    margin: 2rem;
+}
