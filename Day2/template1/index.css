@@ -1,0 +1,12 @@
+#container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content{
+    border: black solid 0.5pt  ;
+}
